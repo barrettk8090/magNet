@@ -1,30 +1,37 @@
 import { useState } from 'react'
-import HeroImage from './components/HeroImage'
+import {
+  createBrowserRouter,
+  RouterProvider,
+  Routes,
+  Route,
+  Router,
+  Link
+} from "react-router-dom";
+import Home from './components/Home'
+
 import Nav from './components/Nav'
-import LongText from './components/LongText'
-import Testimonials from './components/Testimonials'
-import ContactForm from './components/ContactForm'
-import CommunityModule from './components/CommunityModule'
-import WhosOnMagnet from './components/WhosOnMagnet'
 import Footer from './components/Footer'
 import AboutMe from'./components/AboutMe'
-import ContactWall from './components/ContactWall'
+import ContactPage from './components/ContactPage'
 
 function App() {
 
   return (
     <div>
       <Nav/>
-      <HeroImage />
-      <LongText />
-      <Testimonials/>
-      <CommunityModule />
-      <WhosOnMagnet/>
+        <BrowserRouter>
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="users/*" element={<Users />} />
+        </Routes>
+      </BrowserRouter>
+
+
+    <Home/>
 
 
 
-      <ContactForm/>
-      <ContactWall/>
+    <ContactPage/>
 
       <AboutMe/>
 

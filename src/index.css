@@ -36,7 +36,8 @@ body {
 }
 
 h1 {
-  font-size: 8em;
+  /* font-size: 8rem; */
+  font-size: 78px;
   line-height: 1.1;
   font-family: 'Wigglyfont', sans-serif;
   letter-spacing: 0.4rem;
