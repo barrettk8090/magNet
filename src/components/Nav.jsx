@@ -1,7 +1,7 @@
 function Nav() {
     return(
         <nav>
-        <h3>MagNet</h3>
+        <h3 className="magnet-logo">M</h3>
         <ul className="nav-list">
           <li>Community</li>
           <li>Contact</li>

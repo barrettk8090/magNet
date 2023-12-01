@@ -3,10 +3,19 @@ function HeroImage(){
     return(
 
     <div className="Hero">
-        <img className="heroimg" src="../public/iphone.png" alt="test"/>
-        <h1 className="centered">A place for creatives to build their portfolio</h1>
-        <h5 className="centered-below">Magnetize those connections!!!</h5>
-        <button className="">Get Started</button>
+
+        <div className="textdiv">
+            <h1 className="centered">magNet</h1>
+            <h2 className="centered">Where creatives develop their portfolios & small businesses build their brand.</h2>
+            <button className=""> ↓ How It Works ↓</button>
+        </div>
+
+
+        <div className="imagediv">
+            <img className="heroimg" src="../public/citysky.jpeg" alt="test"/>
+        </div>
+
+      
     </div>
 
 )
