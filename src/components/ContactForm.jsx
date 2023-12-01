@@ -2,7 +2,7 @@ function ContactForm(){
 
     return (
         <div>
-            <h2>Contact Us</h2>
+            <h1>Contact Us</h1>
             <input placeholder="First Name"></input>
             <input placeholder="Last Name"></input>
             <input placeholder="Email Address"></input>

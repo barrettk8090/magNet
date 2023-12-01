@@ -6,7 +6,7 @@ function HeroImage(){
 
         <div className="textdiv">
             <h1 className="centered">magNet</h1>
-            <h2 className="centered">Where creatives develop their portfolios & small businesses build their brand.</h2>
+            <h2 className="centered">Where creatives develop their portfolios & small businesses build their brands.</h2>
             <button className=""> ↓ How It Works ↓</button>
         </div>
 

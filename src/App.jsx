@@ -1,6 +1,7 @@
 import { useState } from 'react'
 import {
   createBrowserRouter,
+  BrowserRouter,
   RouterProvider,
   Routes,
   Route,
@@ -13,27 +14,29 @@ import Nav from './components/Nav'
 import Footer from './components/Footer'
 import AboutMe from'./components/AboutMe'
 import ContactPage from './components/ContactPage'
+import CommunityPage from './components/CommunityPage';
 
 function App() {
 
   return (
     <div>
-      <Nav/>
+      
         <BrowserRouter>
+        <Nav/>
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="users/*" element={<Users />} />
+          <Route path="/community" element ={<CommunityPage/>} />
+          <Route path="/contact" element={<ContactPage/>} />
+          <Route path="/about" element={<AboutMe/>} />
         </Routes>
       </BrowserRouter>
 
 
-    <Home/>
 
 
 
-    <ContactPage/>
 
-      <AboutMe/>
+
 
 
       <Footer />
