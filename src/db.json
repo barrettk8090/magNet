@@ -141,11 +141,20 @@
     "contact-posts": [
         {
           "id": 1,
-          "first-name": "First Name",
-          "last-name": "Last Name",
-          "email": "email-address",
-          "message": "message"
-        }
+          "first-name": "Angus",
+          "last-name": "Hamburger",
+          "email": "angyHamburgy@hotmale.net",
+          "title": "Bless Your Heart, Magnet.",
+          "message": "Thank you for providing an incredible service. I actually didn't come here to complain, but to instead shower you in love and praise. I hope Magnet succeeds where others have failed."
+        },
+        {
+            "id": 2,
+            "first-name": "Samantha",
+            "last-name": "Smith",
+            "email": "samsw0rLd666@aol.com",
+            "title": "How does Magnet Make Money?",
+            "message": "Does anyone else find it weird that this service is 100% free, yet somehow Magnet is still in business? I read a conspiracy online that this is a honeypot funded by the US government to force people to do free unpaid labor. Seems ridiculous!!! Anyways my cash app is $samsw0rLd666 please pay me 🙏"
+          }
     ]
   }
 

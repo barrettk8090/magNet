@@ -1,12 +1,17 @@
-function ContactWall(){
+import ContactPost from "./ContactPost"
+
+function ContactWall({posts}){
+
+    const displayPosts = posts.map((post)=> {
+        return (
+            <ContactPost key={post.id} post={post} /> 
+        )
+    })
     
     return(
+
         <div>
-            <h2>Contact Wall</h2>
-            <div>
-                <p> Individual Contact Post </p>
-                <button>Reply →</button>
-            </div>
+            {displayPosts}
         </div>
     )
 }
