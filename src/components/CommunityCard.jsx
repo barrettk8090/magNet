@@ -1,7 +1,7 @@
 function CommunityCard(){
 
     return(
-    <div className="individual-card">
+    <div className="px-6 py-6">
         <img/>
         <p>Persons Name</p>
         <p>Persons Profession</p>
