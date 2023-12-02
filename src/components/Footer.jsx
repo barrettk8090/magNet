@@ -1,12 +1,14 @@
+import { Link, NavLink, useParams } from "react-router-dom";
+
 function Footer(){
 
     return(
-        <div>
+        <footer className="flex flex-row">
             <div>
                 <ul>
-                    <li>Communuty</li>
-                    <li>Contact</li>
-                    <li>About</li>
+                <li>Community</li>
+                <li>Contact</li>
+                <li>About</li>
                 </ul>
             </div>
 
@@ -15,7 +17,7 @@ function Footer(){
                 <input placeholder="Enter your email"/>
                 <button>Sign Up</button>
             </div>
-        </div>
+        </footer>
     )
 }
 

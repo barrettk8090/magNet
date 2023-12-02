@@ -84,24 +84,6 @@ button:focus-visible {
   font-size: 2em
 }
 
-nav {
-  display:flex;
-  padding-left: 20px;
-}
-
-.nav-list{
-  display:flex;
-  list-style: none;
-  justify-content:space-between;
-  padding-left: 20px;
-}
-
-.nav-list li{
-  justify-content: space-around;
-  padding-left: 60px;
-  padding-top: 4px;
-  cursor: pointer;
-}
 
 
 .hero{
