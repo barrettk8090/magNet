@@ -2,12 +2,12 @@ function HeroImage(){
    
     return(
 
-    <div className="Hero">
+    <div className="Hero bg-sky-600">
 
         <div className="textdiv">
-            <h1 className="centered">magNet</h1>
+            <h1 className="centered text-5xl " >magNet</h1>
             <h2 className="centered">Where creatives develop their portfolios & small businesses build their brands.</h2>
-            <button className=""> ↓ How It Works ↓</button>
+            <button className="bg-gray-500 hover:bg-sky-700"> ↓ How It Works ↓</button>
         </div>
 
 
