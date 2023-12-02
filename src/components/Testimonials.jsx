@@ -1,7 +1,7 @@
 function Testimonials(){
 
     return(
-        <div>
+        <div className="bg-red-600">
             <h3>Testimonials</h3>
             <div>
                 <img />
