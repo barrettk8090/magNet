@@ -25,7 +25,8 @@ function ContactForm({addContactPost}){
 
     return (
         <div>
-            <h1>Contact Us</h1>
+            <h1 className= "text-9xl pt-14 font:display">Contact Us</h1>
+            <p>Use the form below to leave us a public comment on our wall, and we'll reply directly to you here. </p>
             <form onSubmit={submit}>
             <input placeholder="First Name" onChange={(e)=>setFirstName(e.target.value)}></input>
             <input placeholder="Last Name" onChange={(e)=>setLastName(e.target.value)}></input>
