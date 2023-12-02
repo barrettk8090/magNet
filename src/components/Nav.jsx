@@ -3,7 +3,7 @@ import { Link, NavLink, useParams } from "react-router-dom";
 
 function Nav() {
     return(
-        <nav className="h-20 flex pl-4">
+        <nav className="h-20 flex pl-4 fixed top-0 bg-slate-900 w-full">
          
           <h3 className="font-display text-6xl py-3 pl-1"><Link to="/" className="text-white">M</Link></h3>
           

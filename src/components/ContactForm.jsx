@@ -28,7 +28,7 @@ function ContactForm({addContactPost}){
             <h1 className= "text-9xl pt-14 font:display">Contact Us</h1>
             <p>Use the form below to leave us a public comment on our wall, and we'll reply directly to you here. </p>
             <form onSubmit={submit}>
-            <input placeholder="First Name" onChange={(e)=>setFirstName(e.target.value)}></input>
+            <input className= ""placeholder="First Name" onChange={(e)=>setFirstName(e.target.value)}></input>
             <input placeholder="Last Name" onChange={(e)=>setLastName(e.target.value)}></input>
             <input placeholder="Email Address" onChange={(e)=>setEmail(e.target.value)}></input>
             <input placeholder="Message Title" onChange={(e)=>setMessageTitle(e.target.value)}></input>

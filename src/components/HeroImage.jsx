@@ -2,7 +2,7 @@ function HeroImage(){
    
     return(
 
-    <div className="Hero md:flex md:flex-row items-center ">
+    <div className="Hero md:flex md:flex-row items-center bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500">
 
         <div className="textdiv md:basis-1/2">
             <h1 className="text-9xl pt-14 font:display" >magNet</h1>
