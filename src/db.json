@@ -1,161 +1,167 @@
 {
-    "creative-types": [
-      {
-        "id": 1,
-        "type": "photographer",
-        "emoji": "📸"
-      },
-      {
-        "id": 2,
-        "type": "videographer",
-        "emoji": "📹"
-      },
-      {
-        "id": 3,
-        "type": "video editor",
-        "emoji": "🎞️"
-      },
-      {
-        "id": 4,
-        "type": "illustrator",
-        "emoji": "🖌️"
-      },
-      {
-        "id": 5,
-        "type": "ux designer",
-        "emoji": "⚙️"
-      },
-      {
-        "id": 6,
-        "type": "ui designer",
-        "emoji": "📱"
-      },
-      {
-        "id": 7,
-        "type": "programmer",
-        "emoji": "💻"
-      }
-    ],
-    "business-types": [
+  "creative-types": [
+    {
+      "id": 1,
+      "type": "photographer",
+      "emoji": "📸"
+    },
+    {
+      "id": 2,
+      "type": "videographer",
+      "emoji": "📹"
+    },
+    {
+      "id": 3,
+      "type": "video editor",
+      "emoji": "🎞️"
+    },
+    {
+      "id": 4,
+      "type": "illustrator",
+      "emoji": "🖌️"
+    },
+    {
+      "id": 5,
+      "type": "ux designer",
+      "emoji": "⚙️"
+    },
+    {
+      "id": 6,
+      "type": "ui designer",
+      "emoji": "📱"
+    },
+    {
+      "id": 7,
+      "type": "programmer",
+      "emoji": "💻"
+    }
+  ],
+  "business-types": [
+    {
+      "id": 1,
+      "type": "realtors",
+      "emoji": "🏠"
+    },
+    {
+      "id": 2,
+      "type": "restaurant owners",
+      "emoji": "🍝"
+    }
+  ],
+  "community-card-NEEDS IDs": [
+    {
+      "connection": [
         {
-            "id": 1,
-            "type": "realtors",
-            "emoji": "🏠"
-        },
-        {
-            "id": 2,
-            "type": "restaurant owners",
-            "emoji": "🍝"
-          }
-    ],
-    "community-card-NEEDS IDs": [
-        {
-            "connection": [
-                {
-                    "creative": [
-                        {
-                            "id":1,
-                            "img": "imgsrc",
-                            "name": "personsName",
-                            "description": "description"
-                        }
-                    ],
-                    "business": [
-                        {
-                            "id":1,
-                            "img": "imgsrc",
-                            "name": "personsName",
-                            "description": "description"
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "connection": [
-                {
-                    "creative": [
-                        {
-                            "id":2,
-                            "img": "imgsrc",
-                            "name": "personsName",
-                            "description": "description"
-                        }
-                    ],
-                    "business": [
-                        {
-                            "id":2,
-                            "img": "imgsrc",
-                            "name": "personsName",
-                            "description": "description"
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "connection": [
-                {
-                    "creative": [
-                        {
-                            "id":3,
-                            "img": "imgsrc",
-                            "name": "personsName",
-                            "description": "description"
-                        }
-                    ],
-                    "business": [
-                        {
-                            "id":3,
-                            "img": "imgsrc",
-                            "name": "personsName",
-                            "description": "description"
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "connection": [
-                {
-                    "creative": [
-                        {
-                            "id":4,
-                            "img": "imgsrc",
-                            "name": "personsName",
-                            "description": "description"
-                        }
-                    ],
-                    "business": [
-                        {
-                            "id":4,
-                            "img": "imgsrc",
-                            "name": "personsName",
-                            "description": "description"
-                        }
-                    ]
-                }
-            ]
+          "creative": [
+            {
+              "id": 1,
+              "img": "imgsrc",
+              "name": "personsName",
+              "description": "description"
+            }
+          ],
+          "business": [
+            {
+              "id": 1,
+              "img": "imgsrc",
+              "name": "personsName",
+              "description": "description"
+            }
+          ]
         }
-    ],
-    "contact-posts": [
+      ]
+    },
+    {
+      "connection": [
         {
-          "id": 1,
-          "first-name": "Angus",
-          "last-name": "Hamburger",
-          "email": "angyHamburgy@hotmale.net",
-          "title": "Bless Your Heart, Magnet.",
-          "message": "Thank you for providing an incredible service. I actually didn't come here to complain, but to instead shower you in love and praise. I hope Magnet succeeds where others have failed."
-        },
+          "creative": [
+            {
+              "id": 2,
+              "img": "imgsrc",
+              "name": "personsName",
+              "description": "description"
+            }
+          ],
+          "business": [
+            {
+              "id": 2,
+              "img": "imgsrc",
+              "name": "personsName",
+              "description": "description"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "connection": [
         {
-            "id": 2,
-            "first-name": "Samantha",
-            "last-name": "Smith",
-            "email": "samsw0rLd666@aol.com",
-            "title": "How does Magnet Make Money?",
-            "message": "Does anyone else find it weird that this service is 100% free, yet somehow Magnet is still in business? I read a conspiracy online that this is a honeypot funded by the US government to force people to do free unpaid labor. Seems ridiculous!!! Anyways my cash app is $samsw0rLd666 please pay me 🙏"
-          }
-    ]
-  }
-
-  
+          "creative": [
+            {
+              "id": 3,
+              "img": "imgsrc",
+              "name": "personsName",
+              "description": "description"
+            }
+          ],
+          "business": [
+            {
+              "id": 3,
+              "img": "imgsrc",
+              "name": "personsName",
+              "description": "description"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "connection": [
+        {
+          "creative": [
+            {
+              "id": 4,
+              "img": "imgsrc",
+              "name": "personsName",
+              "description": "description"
+            }
+          ],
+          "business": [
+            {
+              "id": 4,
+              "img": "imgsrc",
+              "name": "personsName",
+              "description": "description"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "contact-posts": [
+    {
+      "id": 1,
+      "firstName": "Angus",
+      "lastName": "Hamburger",
+      "email": "angyHamburgy@hotmale.net",
+      "title": "Bless Your Heart, Magnet.",
+      "message": "Thank you for providing an incredible service. I actually didn't come here to complain, but to instead shower you in love and praise. I hope Magnet succeeds where others have failed."
+    },
+    {
+      "id": 2,
+      "firstName": "Samantha",
+      "lastName": "Smith",
+      "email": "samsw0rLd666@aol.com",
+      "title": "How does Magnet Make Money?",
+      "message": "Does anyone else find it weird that this service is 100% free, yet somehow Magnet is still in business? I read a conspiracy online that this is a honeypot funded by the US government to force people to do free unpaid labor. Seems ridiculous!!! Anyways my cash app is $samsw0rLd666 please pay me 🙏"
+    },
+    {
+      "firstName": "Barrett",
+      "lastName": "Kowalsky",
+      "email": "barrettkowalsky@gmail.com",
+      "message": "Writing a big long message! Writing a big long message! Writing a big long message! Writing a big long message! Writing a big long message! Writing a big long message! Writing a big long message! Writing a big long message! Writing a big long message! Writing a big long message! Writing a big long message! Writing a big long message! Writing a big long message! Writing a big long message! Writing a big long message! Writing a big long message! Writing a big long message! ",
+      "title": "Testing My Message!",
+      "id": 3
+    }
+  ]
+}

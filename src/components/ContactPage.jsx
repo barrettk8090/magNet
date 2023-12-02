@@ -13,9 +13,19 @@ function ContactPage(){
         }
       ,[])
 
+    function addContactPost(newContactPost){
+        fetch("http://localhost:3000/contact-posts",{
+            method:'POST',
+            headers:{'Content-Type':'application/json'},
+            body: JSON.stringify(newContactPost)
+          })
+          .then(r=>r.json())
+          .then(data=> setPosts([...posts,data]))
+        }
+
     return(
         <>
-        <ContactForm/>
+        <ContactForm addContactPost={addContactPost}/>
         <ContactWall posts={posts}/>
         </>
     )
