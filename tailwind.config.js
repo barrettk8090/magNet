@@ -7,6 +7,7 @@ export default {
   theme: {
     fontFamily:{
       'display': ['WigglyFont'],
+      'inter-sans': ['Inter'],
     },
     extend: {},
   },
