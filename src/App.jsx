@@ -29,6 +29,7 @@ function App() {
           <Route path="/contact" element={<ContactPage/>} />
           <Route path="/about" element={<AboutMe/>} />
         </Routes>
+        <Footer />
       </BrowserRouter>
 
 
@@ -39,7 +40,7 @@ function App() {
 
 
 
-      <Footer />
+      
     </div>
   )
 }
