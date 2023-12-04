@@ -3,8 +3,10 @@ import CommunityCard from "./CommunityCard"
 function CommunityPage(){
 
     return(
-        <div className="pt-20">
-            <h1 className= "text-9xl pt-14 font:display">Community</h1>
+        <div className="pt-14">
+            <div className="flex justify-center">
+            <h1 className= "pt-14 text-9xl font:display ">Community</h1>
+            </div>
             <p> We have a vibrant community...</p>
             <CommunityCard/>
         </div>
