@@ -35,28 +35,29 @@ function ContactForm({addContactPost}){
 
                     <div className="sm:col-span-3">
                         <label className="block text-sm font-medium leading-6 text-white">First Name</label>
-                        <input className= "block w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"  onChange={(e)=>setFirstName(e.target.value)}></input>
+                        <input className= "block w-full rounded-md border-0 py-1.5 px-2 text-white shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"  onChange={(e)=>setFirstName(e.target.value)}></input>
                     </div>
             
                     <div className="sm:col-span-3">
                         <label className="block text-sm font-medium leading-6 text-white">Last Name</label>
-                        <input className="block w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"  onChange={(e)=>setLastName(e.target.value)}></input>
+                        <input className="block w-full rounded-md border-0 py-1.5 px-2 text-white shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"  onChange={(e)=>setLastName(e.target.value)}></input>
                     </div>
 
 
                     <div className="sm:col-span-6">
                         <label className="block text-sm font-medium leading-6 text-white">Email Address</label>
-                        <input className="block w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6" onChange={(e)=>setEmail(e.target.value)}></input>
+                        <input className="block w-full rounded-md border-0 py-1.5
+                        px-2 text-white shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6" onChange={(e)=>setEmail(e.target.value)}></input>
                     </div>
 
                     <div className="sm:col-span-6">
                         <label className="block text-sm font-medium leading-6 text-white">Message Title</label>
-                        <input className="block w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"  onChange={(e)=>setMessageTitle(e.target.value)}></input>
+                        <input className="block w-full rounded-md border-0 py-1.5 px-2 text-white shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"  onChange={(e)=>setMessageTitle(e.target.value)}></input>
                     </div>
 
                     <div className="sm:col-span-6">
                         <label className="block text-sm font-medium leading-6 text-white">Message</label>
-                        <input className="h-36 block w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6" placeholder="Write your message to us here..." onChange={(e)=>setMessage(e.target.value)}></input>
+                        <textarea className="h-36 block w-full rounded-md border-0 py-1.5 px-2 text-white shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6" placeholder="Write your message to us here..." onChange={(e)=>setMessage(e.target.value)}></textarea>
                         
                     </div>
                     <button className="sm:col-span-2 md:col-span-2 lg:col-span-2">Submit</button>
