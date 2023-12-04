@@ -1,10 +1,6 @@
-function ContactPost({post}){
+import { useState } from 'react';
 
-    function clickReply(){
-        return(
-            <h1>HELLO</h1>
-        )
-    }
+function ContactPost({post}){
 
     return(
             <div className="bg-sky-950 rounded-lg grid">
