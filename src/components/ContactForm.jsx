@@ -24,16 +24,41 @@ function ContactForm({addContactPost}){
     }
 
     return (
-        <div>
+        <div className="pt-14">
             <h1 className= "text-9xl pt-14 font:display">Contact Us</h1>
-            <p>Use the form below to leave us a public comment on our wall, and we'll reply directly to you here. </p>
+            <p className="mx-6">Use the form below to leave us a public comment on our wall, and we'll reply directly to you here. </p>
             <form onSubmit={submit}>
-            <input className= ""placeholder="First Name" onChange={(e)=>setFirstName(e.target.value)}></input>
-            <input placeholder="Last Name" onChange={(e)=>setLastName(e.target.value)}></input>
-            <input placeholder="Email Address" onChange={(e)=>setEmail(e.target.value)}></input>
-            <input placeholder="Message Title" onChange={(e)=>setMessageTitle(e.target.value)}></input>
-            <input placeholder="Write your message here..." onChange={(e)=>setMessage(e.target.value)}></input>
-            <button>Submit Your Message</button>
+
+                <div className="mt-10 mx-6 grid grid-cols-1 gap-x-6 gap-y-8 sm:grid-cols-6">
+
+                    <div className="sm:col-span-3">
+                        <label className="block text-sm font-medium leading-6 text-white">First Name</label>
+                        <input className= "block w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"  onChange={(e)=>setFirstName(e.target.value)}></input>
+                    </div>
+            
+                    <div className="sm:col-span-3">
+                        <label className="block text-sm font-medium leading-6 text-white">Last Name</label>
+                        <input className="block w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"  onChange={(e)=>setLastName(e.target.value)}></input>
+                    </div>
+
+
+                    <div className="sm:col-span-6">
+                        <label className="block text-sm font-medium leading-6 text-white">Email Address</label>
+                        <input className="block w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6" onChange={(e)=>setEmail(e.target.value)}></input>
+                    </div>
+
+                    <div className="sm:col-span-6">
+                        <label className="block text-sm font-medium leading-6 text-white">Message Title</label>
+                        <input className="block w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"  onChange={(e)=>setMessageTitle(e.target.value)}></input>
+                    </div>
+
+                    <div className="sm:col-span-6">
+                        <label className="block text-sm font-medium leading-6 text-white">Message</label>
+                        <input className="h-36 block w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6" placeholder="Write your message to us here..." onChange={(e)=>setMessage(e.target.value)}></input>
+                        
+                    </div>
+                    <button className="sm:col-span-2 md:col-span-2 lg:col-span-2">Submit</button>
+                </div>
             </form>
         </div>
     )
