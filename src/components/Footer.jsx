@@ -4,9 +4,9 @@ import { Link, NavLink, useParams } from "react-router-dom";
 function Footer(){
 
     return(
-        <footer className="bg-slate-900 grid justify-items-center">
+        <footer className="pb-20 bg-slate-900 grid justify-items-center">
 
-            <div className="py-12">
+            <div className="py-20">
                 <h5 className="font-display text-6xl">Sign up for our newsletter!</h5>
                 <p className="pt-4 pb-6">Tips, tricks, and updates sent straight to your inbox.</p>
                 <input className="rounded h-10" placeholder="Enter your email"/>

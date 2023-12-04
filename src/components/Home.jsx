@@ -3,6 +3,7 @@ import LongText from './LongText'
 import Testimonials from './Testimonials'
 import CommunityModule from './CommunityModule'
 import WhosOnMagnet from './WhosOnMagnet'
+import Carousel from './Carousel'
 
 
 
@@ -17,6 +18,7 @@ function Home(){
         <Testimonials/>
         <CommunityModule/>
         <WhosOnMagnet/>
+        <Carousel/>
         </>
         
     )

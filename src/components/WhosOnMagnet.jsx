@@ -11,12 +11,12 @@ function WhosOnMagnet(){
 
             <div className="grid md:grid-cols-2 ">
                 <div className="mx-6 md:mx-12 md:px-8">
-                    <h3 className="pb-8 text-3xl">Creatives</h3>
+                    <h3 className="pb-8 text-6xl font-display">Creatives</h3>
                     <CreativeTypes />
                 </div>
 
                 <div className="mx-6 md:mx-12 md:px-8 py-8 md:py-0">
-                    <h3 className="pb-8 text-3xl">Businesses</h3>
+                    <h3 className="pb-8 text-6xl font-display">Businesses</h3>
                     <BusinessTypes/>
                 </div>
             
