@@ -1,5 +1,11 @@
 function ContactPost({post}){
 
+    function clickReply(){
+        return(
+            <h1>HELLO</h1>
+        )
+    }
+
     return(
             <div className="bg-sky-950 rounded-lg grid">
                 <div className="px-6 py-6">
@@ -9,7 +15,7 @@ function ContactPost({post}){
                     <p>  {post.email}</p>
                 </div>
                 <div className="grid grid-cols-1 place-items-end">
-                        <button className="mr-4 mb-4">Reply →</button>
+                        <button onClick={() => clickReply()} className="mr-4 mb-4">Reply →</button>
                 </div>
             </div>
             )
