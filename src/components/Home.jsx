@@ -15,8 +15,8 @@ function Home(){
         <>
         <HeroImage/>
         <LongText/>
-        <Testimonials/>
-        <CommunityModule/>
+        {/* <Testimonials/> */}
+        {/* <CommunityModule/> */}
         <WhosOnMagnet/>
         <Carousel/>
         </>
