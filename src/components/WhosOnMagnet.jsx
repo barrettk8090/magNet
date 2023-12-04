@@ -5,8 +5,8 @@ function WhosOnMagnet(){
 
     return(
         <div className="bg-gray-650 pb-4">
-            <div className="md:flex md:gitajustify-center">
-                <h2 className="py-12 text-6xl">Check out who's using MagNet:</h2>
+            <div className="flex justify-center">
+                <h2 className="py-12 px-6 text-6xl font-medium">See Who's Using Magnet</h2>
             </div>
 
             <div className="grid md:grid-cols-2 ">

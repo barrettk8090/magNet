@@ -1,3 +1,5 @@
+import { Link, NavLink, useParams } from "react-router-dom";
+
 function CreativeTypes(){
 
     return (
@@ -18,7 +20,7 @@ function CreativeTypes(){
         <span className="rounded-lg border-solid border-2 border-sky-950 bg-sky-950 px-4 py-2 mx-1 my-2 drop-shadow-lg hover:bg-sky-600">Writers 📝 </span>
         <span className="rounded-lg border-solid border-2 border-sky-950 bg-sky-950 px-4 py-2 mx-1 my-2 drop-shadow-lg hover:bg-sky-600">Artists 🎨  </span>
     
-        <span className="rounded-lg border-solid border-2 border-sky-950 bg-sky-950 px-4 py-2 mx-1 my-2 drop-shadow-lg hover:bg-sky-600"> And Many More →</span> 
+        <span className="rounded-lg border-solid border-2 border-sky-950 bg-sky-950 px-4 py-2 mx-1 my-2 drop-shadow-lg hover:bg-sky-600"><Link className="text-white" to="/community" >And Many More →</Link></span> 
         
         </div>
         
