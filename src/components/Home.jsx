@@ -1,7 +1,7 @@
 import HeroImage from './HeroImage'
 import LongText from './LongText'
 import Testimonials from './Testimonials'
-import CommunityModule from './CommunityModule'
+import CommunityModuleHome from './CommunityModuleHome'
 import WhosOnMagnet from './WhosOnMagnet'
 import Carousel from './Carousel'
 
@@ -16,7 +16,7 @@ function Home(){
         <HeroImage/>
         <LongText/>
         {/* <Testimonials/> */}
-        {/* <CommunityModule/> */}
+        <CommunityModuleHome/>
         <WhosOnMagnet/>
         <Carousel/>
         </>

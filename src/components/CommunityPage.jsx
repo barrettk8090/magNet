@@ -1,4 +1,4 @@
-import CommunityCard from "./CommunityCard"
+import CommunityCard from "./CommunityCardHome"
 
 function CommunityPage(){
 
@@ -7,7 +7,7 @@ function CommunityPage(){
             <div className="flex justify-center">
             <h1 className= "pt-14 text-9xl font:display ">Community</h1>
             </div>
-            <p> We have a vibrant community...</p>
+            <p className="pb-12 text-3xl"> See how creatives and businesses are connecting on Magnet</p>
             <CommunityCard/>
         </div>
     )
