@@ -5,12 +5,12 @@ function HamburgerNav() {
     const [navbar, setNavbar] = useState(false);
 
     return (
-        <nav className="w-full bg-white shadow">
+        <nav className="w-full fixed bg-white shadow z-40">
             <div className="justify-between px-4 mx-auto lg:max-w-7xl md:items-center md:flex md:px-8">
                 <div>
                     <div className="flex items-center justify-between py-3 md:py-5 md:block">
                         <a href="javascript:void(0)">
-                            <h2 className="text-2xl font-bold">LOGO</h2>
+                            <h2 className="font-display text-6xl py-3 pl-1">M</h2>
                         </a>
                         <div className="md:hidden">
                             <button
