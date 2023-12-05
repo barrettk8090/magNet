@@ -2,7 +2,7 @@ function Testimonials(){
 
     return(
         <div className="bg-gradient-to-r from-indigo-500 from-10% via-sky-500 via-30% to-emerald-500 to-90%">
-            <h3 className="pt-12 text-6xl">Testimonials</h3>
+            <h3 className="pt-12 text-9xl">Testimonials</h3>
 
             <div className=" mx-8 border-solid border-2 border-white rounded-lg shadow-xl">
                 <div className="px-8 py-8 rounded-lg bg-sky-950">

@@ -4,19 +4,16 @@ import 'pure-react-carousel/dist/react-carousel.es.css';
 
 const Carousel = () => {
   return ( 
-    <CarouselProvider
+    <CarouselProvider 
     naturalSlideWidth={100}
     naturalSlideHeight={100}
       totalSlides={3}
     >
-        <h2 className="text-3xl pb-12"> Testimonials</h2>
+        <h2 className="py-40 text-9xl font-display font-medium flex justify-center"> Testimonials</h2>
 
-       <div className="grid grid-cols-2"> 
-        <ButtonBack className="border border-sky-500"> Back </ButtonBack>
-        <ButtonNext className="border border-sky-500">Next</ButtonNext>
-      </div>
-
-      <Slider>
+       <div className="grid grid-cols-3"> 
+        <ButtonBack className=" lg:text-6xl"> ← </ButtonBack>
+        <Slider>
         
         <Slide index={0}>
           <div className="rounded-lg bg-purple-600 mx-12 my-12">
@@ -49,6 +46,10 @@ const Carousel = () => {
 
         </Slide>
       </Slider>
+        <ButtonNext className=" lg:text-6xl">→</ButtonNext>
+      </div>
+
+      
 
     </CarouselProvider>
   );
