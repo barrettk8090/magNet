@@ -1,6 +1,7 @@
 import { Link, NavLink, useParams } from "react-router-dom";
 
 
+
 function Footer(){
 
     return(

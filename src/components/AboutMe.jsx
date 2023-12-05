@@ -24,13 +24,13 @@ function AboutMe(){
             <ul className="list-none grid-cols-3 gap-2">
 
                 <div>
-                <li className="w-12"> <a href="https://github.com/barrettk8090"> <img src="https://img.icons8.com/?size=512&id=3tC9EQumUAuq&format=png"/> </a></li>
+                <li className="w-12"> <a href="https://github.com/barrettk8090"> <img className="invert" src="https://img.icons8.com/?size=512&id=3tC9EQumUAuq&format=png"/> </a></li>
                 </div>
                 <div>
-                <li className="w-12"> <a href="https://www.instagram.com/barrettkowalsky/"> <img src="https://img.icons8.com/?size=128&id=RhYNENh5cxlS&format=png"/> </a></li>
+                <li className="w-12"> <a href="https://www.instagram.com/barrettkowalsky/"> <img className="invert" src="https://img.icons8.com/?size=128&id=RhYNENh5cxlS&format=png"/> </a></li>
                 </div>
                 <div>
-                <li className="w-12"><a href="https://www.linkedin.com/in/barrettkowalsky/"> <img src="https://img.icons8.com/?size=512&id=IuI5Yd3J3qcC&format=png"/> </a> </li>
+                <li className="w-12"><a href="https://www.linkedin.com/in/barrettkowalsky/"> <img className="invert" src="https://img.icons8.com/?size=512&id=IuI5Yd3J3qcC&format=png"/> </a> </li>
                 </div>
             </ul>
         </div>
