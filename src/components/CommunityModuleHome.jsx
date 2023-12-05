@@ -4,7 +4,7 @@ function CommunityModuleHome(){
 
 
     return (
-        <div className="bg-gray-650 py-12 px-12 lg:mx-40 xl:mx-60">
+        <div className="bg-gray-650 py-12 px-12 lg:mx-2 xl:mx-8">
             <h3 className="pb-12 text-6xl font-medium">Community</h3>
 
             <CommunityCardHome/>
