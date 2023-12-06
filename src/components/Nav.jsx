@@ -8,7 +8,7 @@ import HamburgerNav from "./HamburgerNav";
 function Nav() {
     return (
       <>
-        <nav className=" h-20 flex pl-8 pt-1 fixed top-0 bg-slate-900 w-full z-40">
+        <nav className=" h-20 flex pl-8 pt-1 fixed top-0 bg-black w-full z-40">
          
           <h3 className="font-display text-6xl py-3 pl-1"><Link to="/" className="text-white">M</Link></h3>
           
