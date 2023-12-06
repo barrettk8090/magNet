@@ -28,10 +28,10 @@ function ContactForm({addContactPost}){
             <div className="flex justify-center">
             <h1 className= "pt-14 text-9xl font:display ">Contact Us</h1>
             </div>
-            <p className="mx-6 md:mx-16 lg:mx-40">Use the form below to leave us a public comment on our wall, and we'll reply directly to you here. </p>
+            <p className="mx-6 md:mx-16 lg:mx-60">Use the form below to leave us a public comment on our wall, and we'll reply directly to you here. </p>
             <form onSubmit={submit}>
 
-                <div className="mt-10 mx-6 md:mx-16 lg:mx-40 grid grid-cols-1 gap-x-6 gap-y-8 sm:grid-cols-6">
+                <div className="mt-10 mx-6 md:mx-16 lg:mx-60 grid grid-cols-1 gap-x-6 gap-y-8 sm:grid-cols-6">
 
                     <div className="sm:col-span-3">
                         <label className="block text-sm font-medium leading-6 text-white">First Name</label>
