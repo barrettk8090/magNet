@@ -29,7 +29,7 @@ function NewStoryForm({addStoryPost}){
         <div className="flex justify-center">
         <h1 className= "pt-14 text-9xl font:display ">Add Your Story</h1>
         </div>
-        <p className="mx-6 md:mx-16 lg:mx-60">Enter your details here to be featured. </p>
+        <p className="mx-6 md:mx-16 lg:mx-60">Have a fun magnet story to share, or want to be featured on our page of available artists? Add your information below and see your profile card appear here! </p>
         <form onSubmit={submit}>
 
             <div className="mt-10 mx-6 md:mx-16 lg:mx-60 grid grid-cols-1 gap-x-6 gap-y-8 sm:grid-cols-6">
