@@ -20,11 +20,11 @@ function CommunityCards(){
         <div className="lg:col-span-1 lg:flex lg:justify-center lg:items-stretch">
 
             <div className="flex justify-center ">
-                <img src="../public/underline_vertical.png" className="w-4 lg:w-0 invert"/>
+                <img src="/underline_vertical.png" className="w-4 lg:w-0 invert"/>
             </div>
 
             <div className="flex justify-center lg:self-center">
-                <img src="../public/underline_horizontal.png" className="w-0 lg:w-auto lg:h-24 invert lg:z-20"/>
+                <img src="/underline_horizontal.png" className="w-0 lg:w-auto lg:h-24 invert lg:z-20"/>
             </div>
 
             <div className="mt-4 lg:self-center">
@@ -32,11 +32,11 @@ function CommunityCards(){
             </div>
 
             <div className="flex justify-center lg:self-center">
-                <img src="../public/underline_horizontal.png" className="w-0 lg:w-auto lg:h-24 lg:z-20 invert"/>
+                <img src="/underline_horizontal.png" className="w-0 lg:w-auto lg:h-24 lg:z-20 invert"/>
             </div>
 
             <div className="flex justify-center">
-                <img src="../public/underline_vertical.png" className="w-4 lg:w-0 invert"/>
+                <img src="/underline_vertical.png" className="w-4 lg:w-0 invert"/>
             </div>
 
         </div>
@@ -70,11 +70,11 @@ function CommunityCards(){
         <div className="lg:col-span-1 lg:flex lg:justify-center lg:items-stretch">
 
             <div className="flex justify-center ">
-                <img src="../public/underline_vertical.png" className="w-4 lg:w-0 invert"/>
+                <img src="/underline_vertical.png" className="w-4 lg:w-0 invert"/>
             </div>
 
             <div className="flex justify-center lg:self-center">
-                <img src="../public/underline_horizontal.png" className="w-0 lg:w-auto lg:h-24 invert lg:z-20"/>
+                <img src="/underline_horizontal.png" className="w-0 lg:w-auto lg:h-24 invert lg:z-20"/>
             </div>
 
             <div className="mt-4 lg:self-center">
@@ -82,11 +82,11 @@ function CommunityCards(){
             </div>
 
             <div className="flex justify-center lg:self-center">
-                <img src="../public/underline_horizontal.png" className="w-0 lg:w-auto lg:h-24 lg:z-20 invert"/>
+                <img src="/underline_horizontal.png" className="w-0 lg:w-auto lg:h-24 lg:z-20 invert"/>
             </div>
 
             <div className="flex justify-center">
-                <img src="../public/underline_vertical.png" className="w-4 lg:w-0 invert"/>
+                <img src="/underline_vertical.png" className="w-4 lg:w-0 invert"/>
             </div>
 
         </div>
@@ -120,11 +120,11 @@ function CommunityCards(){
         <div className="lg:col-span-1 lg:flex lg:justify-center lg:items-stretch">
 
             <div className="flex justify-center ">
-                <img src="../public/underline_vertical.png" className="w-4 lg:w-0 invert"/>
+                <img src="/underline_vertical.png" className="w-4 lg:w-0 invert"/>
             </div>
 
             <div className="flex justify-center lg:self-center">
-                <img src="../public/underline_horizontal.png" className="w-0 lg:w-auto lg:h-24 invert lg:z-20"/>
+                <img src="/underline_horizontal.png" className="w-0 lg:w-auto lg:h-24 invert lg:z-20"/>
             </div>
 
             <div className="mt-4 lg:self-center">
@@ -132,11 +132,11 @@ function CommunityCards(){
             </div>
 
             <div className="flex justify-center lg:self-center">
-                <img src="../public/underline_horizontal.png" className="w-0 lg:w-auto lg:h-24 lg:z-20 invert"/>
+                <img src="/underline_horizontal.png" className="w-0 lg:w-auto lg:h-24 lg:z-20 invert"/>
             </div>
 
             <div className="flex justify-center">
-                <img src="../public/underline_vertical.png" className="w-4 lg:w-0 invert"/>
+                <img src="/underline_vertical.png" className="w-4 lg:w-0 invert"/>
             </div>
 
         </div>
