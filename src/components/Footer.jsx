@@ -15,7 +15,7 @@ function Footer(){
             </div>
 
 
-            <div className="text-2xl md:pt-36 ">
+            <div className="text-xl md:pt-36 ">
                 <ul className="grid justify-items-center md:flex" >
                     <li className="py-2 md:px-6"> <Link to="/community" className="text-white font-semibold font-body">Community</Link></li>
                     <li className="py-2 md:px-6"> <Link to="/contact" className="text-white font-semibold font-body">Contact</Link></li>
