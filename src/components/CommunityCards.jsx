@@ -9,7 +9,7 @@ function CommunityCards(){
 
 
         <div className="px-6 py-6 bg-cyan-950 rounded-lg lg:z-30 lg:col-span-1">
-            <img className="rounded-full float-left w-24"  src="../public/grace.png" />
+            <img className="rounded-full float-left w-24"  src="/grace.png" />
             <div className="mx-28 pb-6">
                 <p className="pt-6 font-bold">Grace C.</p>
                 <p className="pb-6 font-bold">Craftsman</p>
@@ -43,7 +43,7 @@ function CommunityCards(){
 
 
         <div className=" mb-6 px-6 py-6 bg-cyan-950 rounded-lg lg:z-30 lg:col-span-1" >
-            <img className="rounded-full float-left w-24"  src="../public/caitlin.png"/>
+            <img className="rounded-full float-left w-24"  src="/caitlin.png"/>
             <div className="mx-28 pb-6">
                 <p className="pt-6 font-bold">Caitlin S.</p>
                 <p className="pb-6 font-bold">Café Owner</p>
@@ -59,7 +59,7 @@ function CommunityCards(){
 
 
         <div className="px-6 py-6 bg-cyan-950 rounded-lg lg:z-30 lg:col-span-1">
-            <img className="rounded-full float-left w-24"  src="../public/dougie.png" />
+            <img className="rounded-full float-left w-24"  src="/dougie.png" />
             <div className="mx-28 pb-6">
                 <p className="pt-6 font-bold">Dougie J.</p>
                 <p className="pb-6 font-bold">Graphic Designer</p>
@@ -93,7 +93,7 @@ function CommunityCards(){
 
 
         <div className=" mb-6 px-6 py-6 bg-cyan-950 rounded-lg lg:z-30 lg:col-span-1" >
-            <img className="rounded-full float-left w-24"  src="../public/bob.png"/>
+            <img className="rounded-full float-left w-24"  src="/bob.png"/>
             <div className="mx-28 pb-6">
                 <p className="pt-6 font-bold">Bob</p>
                 <p className="pb-6 font-bold">Food Trucker</p>
@@ -109,7 +109,7 @@ function CommunityCards(){
 
 
         <div className="px-6 py-6 bg-cyan-950 rounded-lg lg:z-30 lg:col-span-1">
-            <img className="rounded-full float-left w-24"  src="../public/liz.png" />
+            <img className="rounded-full float-left w-24"  src="/liz.png" />
             <div className="mx-28 pb-6">
                 <p className="pt-6 font-bold">Liz</p>
                 <p className="pb-6 font-bold">Video Editor</p>
@@ -143,7 +143,7 @@ function CommunityCards(){
 
 
         <div className=" mb-6 px-6 py-6 bg-cyan-950 rounded-lg lg:z-30 lg:col-span-1" >
-            <img className="rounded-full float-left w-24"  src="../public/fred.png"/>
+            <img className="rounded-full float-left w-24"  src="/fred.png"/>
             <div className="mx-28 pb-6">
                 <p className="pt-6 font-bold">Fred</p>
                 <p className="pb-6 font-bold">Coach</p>

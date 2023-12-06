@@ -17,7 +17,7 @@ function Testimonials(){
                 </div>
 
                 <div className="flex">
-                    <img className="rounded-full h-20 mx-4 my-8" src="../public/barrett-k.png" />
+                    <img className="rounded-full h-20 mx-4 my-8" src="/barrett-k.png" />
                     <div className="flex flex-col">
                         <h5 className="pt-12 font-bold">Joseph Edwards</h5>
                         <h5 className="py-0">Photographer</h5>
@@ -37,7 +37,7 @@ function Testimonials(){
             </div>
 
             <div className="flex">
-                <img className="rounded-full h-20 mx-4 my-8" src="../public/harley.png" />
+                <img className="rounded-full h-20 mx-4 my-8" src="/harley.png" />
                 <div className="flex flex-col">
                     <h5 className="pt-12 font-bold">Harley K.</h5>
                     <h5 className="py-0">Realtor</h5>
