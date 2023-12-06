@@ -16,7 +16,7 @@ function WhosOnMagnet(){
                 </div>
 
                 <div className="mx-6 md:mx-2 md:px-8 lg:mx-12 py-8 md:py-0">
-                    <h3 className="py-8 text-9xl font-display flex justify-center">Businesses</h3>
+                    <h3 className="pb-8 text-9xl font-display flex justify-center">Businesses</h3>
                     <BusinessTypes/>
                 </div>
             

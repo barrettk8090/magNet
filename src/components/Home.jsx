@@ -15,10 +15,10 @@ function Home(){
         <>
         <HeroImage/>
         <LongText/>
-        {/* <Testimonials/> */}
+        <Testimonials/>
         <CommunityModuleHome/>
         <WhosOnMagnet/>
-        <Carousel/>
+        {/* <Carousel/> */}
         </>
         
     )

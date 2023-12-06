@@ -3,7 +3,7 @@ function CommunityCardHome(){
     return(
     <div className="lg:grid lg:grid-cols-3">  
 
-        <div className=" px-6 py-6 bg-cyan-950 rounded-lg lg:z-30 lg:col-span-1">
+        <div className="px-6 py-6 bg-cyan-950 rounded-lg lg:z-30 lg:col-span-1">
             <img className="rounded-full float-left w-24"  src="../public/barrett-k.png" />
             <div className="mx-28 pb-6">
                 <p className="pt-6 font-bold">Grace C.</p>
