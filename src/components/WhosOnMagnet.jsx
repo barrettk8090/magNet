@@ -1,4 +1,4 @@
-import CreativeTypes from "./creativetypes"
+import CreativeTypes from "./CreativeTypes"
 import BusinessTypes from "./BusinessTypes"
 
 function WhosOnMagnet(){
