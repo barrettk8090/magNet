@@ -21,7 +21,7 @@ function AboutMe(){
             <p className="py-2 md:text-2xl">This website was made with ❤️ using Vite, React, and Tailwind. And lots of coffee and La Croix 🤪</p>
 
             <p className="py-2 md:text-2xl">Let's Connect:</p>
-            <ul className="list-none grid grid-cols-3 gap-2 my-20">
+            <ul className="list-none grid grid-cols-3 gap-0 my-6">
 
                 <div className="col-span-1">
                 <li className="w-12"> <a href="https://github.com/barrettk8090"> <img className="invert" src="https://img.icons8.com/?size=512&id=3tC9EQumUAuq&format=png"/> </a></li>
