@@ -1,8 +1,29 @@
 import CommunityCards from "./CommunityCards"
 import AddYourStory from "./AddYourStory"
 import NewStoryForm from "./NewStoryForm"
+import StoryWall from "./StoryWall"
+import {useState, useEffect} from 'react';
 
 function CommunityPage(){
+
+    const [stories, setStories] = useState([])
+
+    useEffect(()=>{
+        fetch("http://localhost:3000/story-posts")
+        .then(r=>r.json())
+        .then(data=>setStories(data))
+        }
+      ,[])
+
+    function addStoryPost(newStoryPost){
+        fetch("http://localhost:3000/story-posts",{
+            method:'POST',
+            headers:{'Content-Type':'application/json'},
+            body: JSON.stringify(newStoryPost)
+          })
+          .then(r=>r.json())
+          .then(data=> setStories([...stories,data]))
+        }
 
     return(
         <div className="pt-14">
@@ -10,7 +31,8 @@ function CommunityPage(){
             <p className="mx-6 pb-12 text-3xl font-semibold flex justify-center"> See how creatives and businesses are connecting on Magnet</p>
             <CommunityCards/>
             <AddYourStory/>
-            <NewStoryForm/>
+            <NewStoryForm addStoryPost={addStoryPost}/>
+            <StoryWall stories={stories}/>
         </div>
     )
 }
