@@ -1,13 +1,13 @@
 function StoryPost({story}){
 
     return(
-        <div className="bg-sky-950 rounded-lg grid">
+        <div className="bg-white rounded-lg grid">
             <div className="px-6 py-6">
-                <p>{story.firstName}</p>
+                <p className="text-6xl font-extrabold font-display text-black">{story.firstName}</p>
                 <img src={story.img}></img>
-                <p>Type: {story.type}</p>
-                <p>Work: {story.work}</p>
-                <p>Story: {story.description}</p>
+                <p className="text-black">Type: {story.type}</p>
+                <p className="text-black">Work: {story.work}</p>
+                <p className="text-black">Story: {story.description}</p>
             </div>
         </div>
     )
