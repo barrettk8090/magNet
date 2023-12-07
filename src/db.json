@@ -31,18 +31,34 @@
   "story-posts": [
     {
       "id": 1,
-      "firstName": "FirstName",
-      "img": "https://cdn3.iconfinder.com/data/icons/design-n-code/100/272127c4-8d19-4bd3-bd22-2b75ce94ccb4-512.png",
+      "firstName": "Susan",
+      "img": "/susan.png",
       "type": "Business",
-      "work": "Photographer",
-      "description": "Writing a big long message! Writing a big long message! Writing a big long message! Writing a big long message! Writing a big long message! Writing a big long message! Writing a big long message! Writing a big long message! Writing a big long message! Writing a big long message! Writing a big long message! Writing a big long message! Writing a big long message! Writing a big long message! Writing a big long message! Writing a big long message! Writing a big long message!"
+      "work": "Candle Maker",
+      "description": "Hi everyone! My name is Susan and I'm excited to be joining this community. I just started making some candles from scratch at home, and I haven't sold a single one yet! Candles are really hard to photograph, so I'm really just looking to see if there's anyone available who might be able to help me get started, just by taking one or two photos for me to put on my Etsy shop!"
     },
     {
-      "firstName": "Alffred",
-      "img": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAK4AAAC6CAMAAAAAlYZRAAAAYFBMVEX///8AAADBwcElJSXExMSqqqru7u5MTEylpaXo6OhpaWlbW1vr6+tISEhFRUXk5OSwsLDb29v4+PgwMDCFhYVTU1PMzMyYmJiSkpJ6eno5OTkUFBRkZGQdHR26uroZGRlRvlV3AAADDklEQVR4nO3d3XaiMBSGYaKACKgE5N/q/d/lOFURMNF07M6Os773rAddPqUYkED0PIQQQgghlkK/7YQo4iDMuSmvk7UYan1uzavqTozq925v4L2YFafcpCe1c60Q5Y4bpS161J63r6v7w65XcUXG7dJ0UGpFz+1Sl6q1QgTcMmWNjltyy5QlOu52zU1TlK903KLitinabXXc05Hbpkh2Om7v4lCm37pfLm7dD9t39SPDJuSmqcp03JhbpizXcZ3cFxQnu9d3GrdLU7hUciW3S1f1pdDW3Cp9indb6+SwcG0x1zr+2XJ6bOtdPJ5Ny+LiYl0mtdub9lqVRU0TBb7Ley2iK0zXT0sdurxXBU17SJ52iPf1wgnxMBK8apk07OBKfZ6gK2LFhpqTMH2cV/hSzWWmZ235zn43P9eeP7lxnVBqP0s+78Tzhqtfy9QlHF5pOH49xnGZJP/xoHCvtH+NT57+nSsW1rnKeQjjzWt779VfYjLK9qmw9hqIWbaPFfI9bmOZe3yPa/uyWfAe1/bsylsDgxArcP9TblEYnD4si2I0ZczJldLXzvoM2kjK0WwAJ9fz1tpZn4Hre17sClc/STVwF+CCCy644P4e1+AwAS644IILLrjgggsuuOCCCy644LJxX96IAS64n8wd3Rdlm1vdX7ow5Y4eaNtb5ub3SbLIlDuapbd+M9mwN2zWptx8eC7X/nMqt9f+fv7IjOuF5eWHhOPxQH/bFd3lzn1DrudlXVdsue7bDG9bac6No6hVcke/w1g642aToWPCdaE5NzjvKuD+VuBSBi5l4FIGLmXgUgYuZR/GDVfg0gUuZeBSBi5l4FIGLmXgUgYuZeBSBi5l4FIGLmXgUgYuZeBSBi5l4FIGLmXgUgYuZeBSBi5leTnFZQ+rhbq1bv9suU3f83bTv8Ctdfuny5Mlf786abqSoWPr9k9WSfpe53GyTmTv1MY9/+9H3uvKc8f5H+BSchgchkWBs9vd/0vntOfR4bJeXTkaAnaX/XfvwP3bqnL5sBhwKl3+xjKEEEIImfYH7cE6uETN0TYAAAAASUVORK5CYII=",
+      "firstName": "Cameron",
+      "img": "/cameron.png",
       "type": "Creative",
-      "work": "Digital Art",
-      "description": "Testing add to story ",
+      "work": "Painter",
+      "description": "I'm Cameron and I like to paint. My apartment is stocked top to bottom with pieces that I've created over the years, and I need to make some room on the walls. So, I was thinking about trying to sell some of my art, but I don't want to do that on the internet. Is there anyone running a coffee shop or art studio near me who might be open to hanging up some of my art? Thanks!",
+      "id": 2
+    },
+    {
+      "firstName": "Daryle",
+      "img": "/cameron.png",
+      "type": "Creative",
+      "work": "Painter",
+      "description": "I'm Cameron and I like to paint. My apartment is stocked top to bottom with pieces that I've created over the years, and I need to make some room on the walls. So, I was thinking about trying to sell some of my art, but I don't want to do that on the internet. Is there anyone running a coffee shop or art studio near me who might be open to hanging up some of my art? Thanks!",
+      "id": 2
+    },
+    {
+      "firstName": "Cameron",
+      "img": "/cameron.png",
+      "type": "Creative",
+      "work": "Painter",
+      "description": "I'm Cameron and I like to paint. My apartment is stocked top to bottom with pieces that I've created over the years, and I need to make some room on the walls. So, I was thinking about trying to sell some of my art, but I don't want to do that on the internet. Is there anyone running a coffee shop or art studio near me who might be open to hanging up some of my art? Thanks!",
       "id": 2
     }
   ]

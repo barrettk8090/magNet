@@ -33,6 +33,13 @@ function AboutMe(){
                 <li className="w-12 col-span-1"><a href="https://www.linkedin.com/in/barrettkowalsky/"> <img className="invert" src="https://img.icons8.com/?size=512&id=IuI5Yd3J3qcC&format=png"/> </a> </li>
                 </div>
             </ul>
+
+            <div className="pt-12">
+
+                <img src="/dadsfeedback.jpg"/>
+                <caption className="pb-12 flex justify-center">Dad's Feedback on Magnet</caption>
+
+            </div>
         </div>
     )
 }
