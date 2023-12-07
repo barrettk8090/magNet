@@ -1,7 +1,7 @@
 function Testimonials(){
 
     return(
-        <div className="pt-20 px-4 sm:px-20 md:px-40 lg:px-12 lg:mx-0 xl:mx-2 xl:px-0 ">
+        <div className="pt-20 px-4 sm:px-20 md:px-40 lg:px-12 lg:py-28 lg:mx-0  xl:px-0 bg-black">
             <h3 className="xl:mx-60 lg:mx-20 pb-12 text-8xl md:text-9xl font-display font-medium">Testimonials</h3>
         <div className="lg:grid lg:grid-cols-2 xl:mx-32">
             <div className="lg:col-span-1 ">

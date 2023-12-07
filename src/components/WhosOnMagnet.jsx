@@ -4,7 +4,7 @@ import BusinessTypes from "./BusinessTypes"
 function WhosOnMagnet(){
 
     return(
-        <div className="bg-black py-28">
+        <div className="bg-black py-28 lg:my-24">
             <div className="flex justify-center">
                 <h2 className="pb-28 px-6 text-2xl font-medium">Who's On Magnet?</h2>
             </div>
