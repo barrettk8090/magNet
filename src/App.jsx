@@ -15,6 +15,7 @@ import Footer from './components/Footer'
 import AboutMe from'./components/AboutMe'
 import ContactPage from './components/ContactPage'
 import CommunityPage from './components/CommunityPage';
+import ScrollToTop from './components/ScrollToTop';
 
 function App() {
 
@@ -30,6 +31,7 @@ function App() {
           <Route path="/about" element={<AboutMe/>} />
         </Routes>
         <Footer />
+        <ScrollToTop/>
       </BrowserRouter>
 
 
