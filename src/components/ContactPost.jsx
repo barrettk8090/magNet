@@ -24,7 +24,7 @@ function ContactPost({post, handlePatch}){
     }
 
     return(
-            <div className="bg-sky-950 rounded-lg grid shadow-lg">
+            <div className="bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 rounded-lg grid shadow-lg">
                 <div className="px-6 py-6">
                     <p className="text-2xl font-extrabold"> {post.title}</p>
                     <p className="pt-8"> "{post.message}"</p>
@@ -35,9 +35,9 @@ function ContactPost({post, handlePatch}){
                 {post.reply ? 
                    <div>
                    <label className="text-sm font-bold px-4 py-12">Response:</label>
-                    <div className=" mx-4 my-4 bg-sky-500 rounded-xl"> 
+                    <div className=" mx-4 my-4 bg-white rounded-xl"> 
                         
-                        <p className="px-4 py-4">{post.reply}</p>
+                        <p className="px-4 py-4 text-black">{post.reply}</p>
                         
                     </div> 
                     </div>: <></>}

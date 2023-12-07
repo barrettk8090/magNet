@@ -5,7 +5,7 @@ import { Link, NavLink, useParams } from "react-router-dom";
 function Footer(){
 
     return(
-        <footer className="pb-20 bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 grid justify-items-center md:grid-cols-2">
+        <footer className="pb-20 bg-black grid justify-items-center md:grid-cols-2 ">
 
             <div className="pl-2 py-10 ">
                 <h5 className="font-display text-6xl">Sign up for our newsletter!</h5>
