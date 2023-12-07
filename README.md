@@ -6,12 +6,13 @@ This project was created during my time at Flatiron School in Denver, CO. It ser
 
 This project was built using Vite, React, and Tailwind.
 
-To get this project up and running on your own computer:
+To get this project up and running on your own computer: https://dev--dulcet-pika-edc9bc.netlify.app/
 
-Option A: Visit my Netlify demo site here:
+### Option A: Visit my Netlify demo site here:
 
 If the sands of time have washed away the Netlify demo, feel free to use
-Option B:
+
+### Option B:
 
 1. Fork and Clone this repo to your own repository
 2. SSH into the repo on your computer
