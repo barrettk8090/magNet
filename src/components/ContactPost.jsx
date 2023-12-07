@@ -2,6 +2,8 @@ import { useState } from 'react';
 
 function ContactPost({post}){
 
+    const [isExpanded, setExpanded] = useState(false)
+
     return(
             <div className="bg-sky-950 rounded-lg grid shadow-lg">
                 <div className="px-6 py-6">
@@ -11,7 +13,7 @@ function ContactPost({post}){
                     <p>  {post.email}</p>
                 </div>
                 <div className="grid grid-cols-1 place-items-end">
-                        <button onClick={() => clickReply()} className="mr-4 mb-4">Reply →</button>
+                        <button className="mr-4 mb-4">Reply +</button>
                 </div>
             </div>
             )
