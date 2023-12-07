@@ -3,9 +3,9 @@ function CommunityCardHome(){
     return(
     <div className="lg:grid lg:grid-cols-3">  
 
-        <div className="px-6 py-6 bg-cyan-950 rounded-lg lg:z-30 lg:col-span-1">
+        <div className="px-6 py-6 sm:mx-12 md:mx-40 lg:mx-0 bg-cyan-950 rounded-lg lg:z-30 lg:col-span-1">
             <img className="rounded-full float-left w-24"  src="/grace.png" />
-            <div className="mx-28 pb-6">
+            <div className="mx-28 pb-6 w-40">
                 <p className="pt-6 font-bold">Grace C.</p>
                 <p className="pb-6 font-bold">Craftsman</p>
             </div>
@@ -37,9 +37,9 @@ function CommunityCardHome(){
         </div>
 
 
-        <div className=" mb-6 px-6 py-6 bg-cyan-950 rounded-lg lg:z-30 lg:col-span-1" >
+        <div className=" mb-6 px-6 py-6 sm:mx-12 md:mx-40 lg:mx-0 bg-cyan-950 rounded-lg lg:z-30 lg:col-span-1" >
             <img className="rounded-full float-left w-24"  src="/caitlin.png"/>
-            <div className="mx-28 pb-6">
+            <div className="mx-28 pb-6 w-40">
                 <p className="pt-6 font-bold">Caitlin S.</p>
                 <p className="pb-6 font-bold">Café Owner</p>
             </div>
