@@ -3,6 +3,11 @@ import { useState } from 'react';
 function ContactPost({post}){
 
     const [isExpanded, setExpanded] = useState(false)
+    const [inputText, setInputText] = useState("")
+
+    const handleExpand = () => {
+        
+    }
 
     return(
             <div className="bg-sky-950 rounded-lg grid shadow-lg">

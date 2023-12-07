@@ -19,7 +19,7 @@
 
 @font-face {
   font-family: 'WigglyFont';
-  src: url('../public/Hipnouma.otf') format('opentype');
+  src: url('/Hipnouma.otf') format('opentype');
 }
 
 a {
