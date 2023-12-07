@@ -6,7 +6,11 @@ function ContactPost({post}){
     const [inputText, setInputText] = useState("")
 
     const handleExpand = () => {
-        
+        setExpanded(!isExpanded);
+    }
+
+    const handleInputChange = (e) => {
+        setInputText(e.target.value)
     }
 
     return(
@@ -17,8 +21,19 @@ function ContactPost({post}){
                     <p className="pt-8">  {post.firstName} {post.lastName} </p>
                     <p>  {post.email}</p>
                 </div>
-                <div className="grid grid-cols-1 place-items-end">
-                        <button className="mr-4 mb-4">Reply +</button>
+                <div className={`grid grid-cols-1 place-items-end ${isExpanded ? 'expanded' : ''}`}>
+                        <button onClick={()=> handleExpand()} className="mr-4 mb-4">{isExpanded ? "Reply -" : "Reply +"}</button>
+                        {isExpanded && (
+                            <div className="w-full px-4">
+                                <form>
+                                    <textarea className="rounded-lg resize-none w-full py-1 px-1"
+                                    value={inputText}
+                                    onChange={handleInputChange}
+                                    placeholder='Add your response here...'/>
+                                    <button className="my-2 grid grid-cols-1 justify-items-end">Submit Reply</button>
+                                </form>
+                            </div>
+                        )}
                 </div>
             </div>
             )
