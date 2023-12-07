@@ -24,6 +24,7 @@ function ContactPage(){
           .then(data=> setPosts([...posts,data]))
         }
 
+        
         function handlePatch(newObj){
           fetch(`http://localhost:3000/contact-posts/${newObj.id}`,{
               method:'PATCH',
