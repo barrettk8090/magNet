@@ -1,9 +1,10 @@
 import { useState } from 'react';
 
-function ContactPost({post}){
+function ContactPost({post, handlePatch}){
 
     const [isExpanded, setExpanded] = useState(false)
     const [inputText, setInputText] = useState("")
+    const [reply, setReply] = useState(name)
 
     const handleExpand = () => {
         setExpanded(!isExpanded);
@@ -11,6 +12,15 @@ function ContactPost({post}){
 
     const handleInputChange = (e) => {
         setInputText(e.target.value)
+    }
+
+    function submit(e){
+        e.preventDefault();
+        const newReply = {...post}
+        newReply.reply = e.target.name.value;
+        handlePatch(newReply)
+        setReply(e.target.name.value)
+
     }
 
     return(
@@ -21,12 +31,23 @@ function ContactPost({post}){
                     <p className="pt-8">  {post.firstName} {post.lastName} </p>
                     <p>  {post.email}</p>
                 </div>
+
+                {post.reply ? 
+                   <div>
+                   <label className="text-sm font-bold px-4 py-12">Response:</label>
+                    <div className=" mx-4 my-4 bg-sky-500 rounded-xl"> 
+                        
+                        <p className="px-4 py-4">{post.reply}</p>
+                        
+                    </div> 
+                    </div>: <></>}
+
                 <div className={`grid grid-cols-1 place-items-end ${isExpanded ? 'expanded' : ''}`}>
                         <button onClick={()=> handleExpand()} className="mr-4 mb-4">{isExpanded ? "X" : "Reply +"}</button>
                         {isExpanded && (
                             <div className="w-full px-4">
-                                <form>
-                                    <textarea className="rounded-lg resize-none w-full py-1 px-1"
+                                <form onSubmit={submit}>
+                                    <textarea name={"name"} className="rounded-lg resize-none w-full py-1 px-1"
                                     value={inputText}
                                     onChange={handleInputChange}
                                     placeholder='Add your response here...'/>

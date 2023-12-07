@@ -5,6 +5,7 @@ import {useState, useEffect} from 'react';
 function ContactPage(){
 
     const [posts, setPosts] = useState([])
+    const [checkUpdate, setCheckUpdate] = useState(true)
 
     useEffect(()=>{
         fetch("http://localhost:3000/contact-posts")
@@ -23,10 +24,21 @@ function ContactPage(){
           .then(data=> setPosts([...posts,data]))
         }
 
+        function handlePatch(newObj){
+          fetch(`http://localhost:3000/contact-posts/${newObj.id}`,{
+              method:'PATCH',
+              headers:{'Content-Type':'application/json'},
+              body: JSON.stringify(newObj)
+            })
+            .then(r=> {
+              setCheckUpdate(!checkUpdate)
+            })
+          }
+
     return(
         <>
-        <ContactForm addContactPost={addContactPost}/>
-        <ContactWall posts={posts}/>
+        <ContactForm posts={posts} addContactPost={addContactPost} />
+        <ContactWall posts={posts} handlePatch={handlePatch}/>
         </>
     )
 

@@ -1,10 +1,10 @@
 import ContactPost from "./ContactPost"
 
-function ContactWall({posts}){
+function ContactWall({posts, handlePatch}){
 
     const displayPosts = posts.map((post)=> {
         return (
-            <ContactPost key={post.id} post={post} /> 
+            <ContactPost key={post.id} post={post} handlePatch={handlePatch}/> 
         )
     })
     
