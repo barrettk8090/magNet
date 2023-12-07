@@ -47,19 +47,19 @@
     },
     {
       "firstName": "Daryle",
-      "img": "/cameron.png",
+      "img": "/daryle.png",
       "type": "Creative",
-      "work": "Painter",
-      "description": "I'm Cameron and I like to paint. My apartment is stocked top to bottom with pieces that I've created over the years, and I need to make some room on the walls. So, I was thinking about trying to sell some of my art, but I don't want to do that on the internet. Is there anyone running a coffee shop or art studio near me who might be open to hanging up some of my art? Thanks!",
-      "id": 2
+      "work": "Singer",
+      "description": "Hello I am looking for someone who wants to listen to me sing",
+      "id": 3
     },
     {
-      "firstName": "Cameron",
-      "img": "/cameron.png",
-      "type": "Creative",
-      "work": "Painter",
-      "description": "I'm Cameron and I like to paint. My apartment is stocked top to bottom with pieces that I've created over the years, and I need to make some room on the walls. So, I was thinking about trying to sell some of my art, but I don't want to do that on the internet. Is there anyone running a coffee shop or art studio near me who might be open to hanging up some of my art? Thanks!",
-      "id": 2
+      "firstName": "Liam",
+      "img": "/liam.JPG",
+      "type": "Business",
+      "work": "Realtor",
+      "description": "Hey there! I just became a real estate agent this past year, and I'm looking to meet with fellow realtors who can give me some tips and tricks on how to sell huge mansions and make disgusting amounts of money. If there's anyone who can help, please reach out anytime!",
+      "id": 4
     }
   ]
 }

@@ -19,7 +19,7 @@ function Testimonials(){
                 <div className="flex">
                     <img className="rounded-full h-20 mx-4 my-8" src="/barrett-k.png" />
                     <div className="flex flex-col">
-                        <h5 className="pt-12 font-bold">Joseph Edwards</h5>
+                        <h5 className="pt-12 font-bold">Barrett K</h5>
                         <h5 className="py-0">Photographer</h5>
                     </div>
                 </div>
