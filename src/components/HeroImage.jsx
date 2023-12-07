@@ -9,8 +9,8 @@ function HeroImage(){
             <h1 className="text-9xl pt-14 lg:pt-0 font:display select-none" >magNet</h1>
             <h2 className="mx-8 md:mx-4 lg:mx-8 xl:mx-12 py-6 text-4xl font:body font-medium select-none">Where creatives develop their portfolios & small businesses build their brands.</h2>
             <div className="mt-12">
-                <button className="mx-4 md:mb-4 hover:text-black hover:bg-white"> Download for iOS </button>
-                <button className="mx-4 md:mt-4 hover:text-black hover:bg-white"> Download for Android Ⓖ</button>
+                <button className="mx-4 mb-4 md:mb-4 hover:text-black hover:bg-white"> Download for iOS </button>
+                <button className="mx-4 my-4 md:mt-4 hover:text-black hover:bg-white"> Download for Android Ⓖ</button>
             </div>
         </div>
 

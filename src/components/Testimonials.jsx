@@ -1,11 +1,11 @@
 function Testimonials(){
 
     return(
-        <div className="pt-20 px-12 lg:mx-2 xl:mx-8 my-32">
-            <h3 className="xl:mx-32 pb-12 text-9xl font-display font-medium">Testimonials</h3>
+        <div className="pt-20 px-4 sm:px-20 md:px-40 lg:px-12 lg:mx-0 xl:mx-2 xl:px-0 ">
+            <h3 className="xl:mx-60 lg:mx-20 pb-12 text-8xl md:text-9xl font-display font-medium">Testimonials</h3>
         <div className="lg:grid lg:grid-cols-2 xl:mx-32">
-            <div className="lg:col-span-1 lg:mx-4 ">
-                <div className="mx-2 lg:mx-20 border-white rounded-lg shadow-xl">
+            <div className="lg:col-span-1 ">
+                <div className="mx-0.25 lg:mx-6 border-white rounded-lg shadow-xl">
 
                     <div className="px-8 py-8 rounded-lg bg-white">
                         
@@ -25,8 +25,8 @@ function Testimonials(){
                 </div>
             </div>
 
-            <div className="mx-2 lg:mx-20 border-white rounded-lg">
-            <div className="lg:col-span-1 lg:mx-4 ">
+            <div className="mx-2 lg:mx-6 border-white rounded-lg">
+            <div className="lg:col-span-1">
                 <div className="px-8 py-8 rounded-lg bg-white  shadow-xl">
                     
                     <p className="pb-4 text-black font-medium text-2xl lg:text-3xl xl:text-4xl">"I'm new to residential real estate, and I knew that if I had a simple website to promote myself, I'd have better luck at gaining new clients.</p>
