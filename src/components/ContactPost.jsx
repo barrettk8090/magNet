@@ -22,7 +22,7 @@ function ContactPost({post}){
                     <p>  {post.email}</p>
                 </div>
                 <div className={`grid grid-cols-1 place-items-end ${isExpanded ? 'expanded' : ''}`}>
-                        <button onClick={()=> handleExpand()} className="mr-4 mb-4">{isExpanded ? "Reply -" : "Reply +"}</button>
+                        <button onClick={()=> handleExpand()} className="mr-4 mb-4">{isExpanded ? "X" : "Reply +"}</button>
                         {isExpanded && (
                             <div className="w-full px-4">
                                 <form>
@@ -30,6 +30,7 @@ function ContactPost({post}){
                                     value={inputText}
                                     onChange={handleInputChange}
                                     placeholder='Add your response here...'/>
+                                    
                                     <button className="my-2 grid grid-cols-1 justify-items-end">Submit Reply</button>
                                 </form>
                             </div>
