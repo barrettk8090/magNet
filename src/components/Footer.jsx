@@ -17,9 +17,9 @@ function Footer(){
 
             <div className="text-xl md:pt-36 ">
                 <ul className="grid justify-items-center md:flex" >
-                    <li className="py-2 md:px-6"> <Link to="/community" className="text-white font-semibold font-body">Community</Link></li>
-                    <li className="py-2 md:px-6"> <Link to="/contact" className="text-white font-semibold font-body">Contact</Link></li>
-                    <li className="py-2 md:px-6"> <Link to="/about" className="text-white font-semibold font-body">About</Link></li>
+                    <li className="py-2 md:px-6"> <Link to="/community" className="text-white font-semibold font-body hover:text-indigo-500 hover:underline hover:decoration-pink-500">Community</Link></li>
+                    <li className="py-2 md:px-6"> <Link to="/contact" className="text-white font-semibold font-body hover:text-indigo-500 hover:underline hover:decoration-pink-500">Contact</Link></li>
+                    <li className="py-2 md:px-6"> <Link to="/about" className="text-white font-semibold font-body hover:text-indigo-500 hover:underline hover:decoration-pink-500">About</Link></li>
                 </ul>
             </div>
 
