@@ -3,12 +3,12 @@ function CommunityCards(){
     return(
 <>
        
-    <div className="lg:grid lg:grid-cols-3 mx-12 lg:mx-60 my-12">  
+    <div className="lg:grid lg:grid-cols-3 mx-12 lg:mx-4 my-12">  
     {/* GRACE AND CAITLIN */}
     <h2 className="lg:col-span-3 pb-12 flex justify-center font-display text-8xl">Grace & Caitlin</h2>
 
 
-        <div className="px-6 py-6 bg-black rounded-lg lg:z-30 lg:col-span-1">
+        <div className="px-6 py-6 sm:mx-12 md:mx-40 lg:mx-0 bg-black rounded-lg lg:z-30 lg:col-span-1">
             <img className="rounded-full float-left w-24"  src="/grace.png" alt="Image of a girl wearing sunglasses and smiling." />
             <div className="mx-28 pb-6">
                 <p className="pt-6 font-bold">Grace C.</p>
@@ -42,7 +42,7 @@ function CommunityCards(){
         </div>
 
 
-        <div className=" mb-6 px-6 py-6 bg-black rounded-lg lg:z-30 lg:col-span-1" >
+        <div className="px-6 py-6 sm:mx-12 md:mx-40 lg:mx-0 bg-black rounded-lg lg:z-30 lg:col-span-1" >
             <img className="rounded-full float-left w-24"  src="/caitlin.png" alt="Image of a girl with brown hair standing in front of a paiting of flamingos."/>
             <div className="mx-28 pb-6">
                 <p className="pt-6 font-bold">Caitlin S.</p>
@@ -53,12 +53,12 @@ function CommunityCards(){
         
     </div>
 
-    <div className="lg:grid lg:grid-cols-3 mx-12 lg:mx-60 my-12">  
+    <div className="lg:grid lg:grid-cols-3 mx-12 lg:mx-4 my-12">  
     {/* DOUGIE AND BOB */}
     <h2 className="lg:col-span-3 pb-12 flex justify-center font-display text-8xl">Dougie & Bob</h2>
 
 
-        <div className="px-6 py-6 bg-black rounded-lg lg:z-30 lg:col-span-1">
+        <div className="px-6 py-6 sm:mx-12 md:mx-40 lg:mx-0 bg-black rounded-lg lg:z-30 lg:col-span-1">
             <img className="rounded-full float-left w-24"  src="/dougie.png" alt="Image of Kyle MacLachlan as Dougie in Twin Peaks."/>
             <div className="mx-28 pb-6">
                 <p className="pt-6 font-bold">Dougie J.</p>
@@ -92,7 +92,7 @@ function CommunityCards(){
         </div>
 
 
-        <div className=" mb-6 px-6 py-6 bg-black rounded-lg lg:z-30 lg:col-span-1" >
+        <div className="px-6 py-6 sm:mx-12 md:mx-40 lg:mx-0 bg-black rounded-lg lg:z-30 lg:col-span-1" >
             <img className="rounded-full float-left w-24"  src="/bob.png" alt="Image of scary Bob from Twin Peaks."/>
             <div className="mx-28 pb-6">
                 <p className="pt-6 font-bold">Bob</p>
@@ -103,12 +103,12 @@ function CommunityCards(){
         
     </div>
 
-    <div className="lg:grid lg:grid-cols-3 mx-12 lg:mx-60 my-12">  
+    <div className="lg:grid lg:grid-cols-3 mx-12 lg:mx-4 my-12">  
     {/* Liz AND FRED */}
     <h2 className="lg:col-span-3 pb-12 flex justify-center font-display text-8xl"> Liz & Fred </h2>
 
 
-        <div className="px-6 py-6 bg-black rounded-lg lg:z-30 lg:col-span-1">
+        <div className="px-6 py-6 sm:mx-12 md:mx-40 lg:mx-0 bg-black rounded-lg lg:z-30 lg:col-span-1">
             <img className="rounded-full float-left w-24"  src="/liz.png" alt="Image of Lizzy McGuire from Disney" />
             <div className="mx-28 pb-6">
                 <p className="pt-6 font-bold">Liz</p>
@@ -142,7 +142,7 @@ function CommunityCards(){
         </div>
 
 
-        <div className=" mb-6 px-6 py-6 bg-black rounded-lg lg:z-30 lg:col-span-1" >
+        <div className="px-6 py-6 sm:mx-12 md:mx-40 lg:mx-0 bg-black rounded-lg lg:z-30 lg:col-span-1" >
             <img className="rounded-full float-left w-24"  src="/fred.png" alt="Image of a French Bulldog wearing a baseball cap."/>
             <div className="mx-28 pb-6">
                 <p className="pt-6 font-bold">Fred</p>
