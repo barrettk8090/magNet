@@ -3,9 +3,9 @@ function CommunityCards(){
     return(
 <>
        
-    <div className="lg:grid lg:grid-cols-3 mx-12 lg:mx-4 my-12">  
+    <div className="lg:grid lg:grid-cols-3 mx-4 sm:mx-12 lg:mx-12 my-12">  
     {/* GRACE AND CAITLIN */}
-    <h2 className="lg:col-span-3 pb-12 flex justify-center font-display text-8xl">Grace & Caitlin</h2>
+    <h2 className="lg:col-span-3 pb-12 flex justify-center font-display text-6xl sm:text-8xl">Grace & Caitlin</h2>
 
 
         <div className="px-6 py-6 sm:mx-12 md:mx-40 lg:mx-0 bg-black rounded-lg lg:z-30 lg:col-span-1">
@@ -53,9 +53,9 @@ function CommunityCards(){
         
     </div>
 
-    <div className="lg:grid lg:grid-cols-3 mx-12 lg:mx-4 my-12">  
+    <div className="lg:grid lg:grid-cols-3 mx-4 sm:mx-12 lg:mx-12 my-12">  
     {/* DOUGIE AND BOB */}
-    <h2 className="lg:col-span-3 pb-12 flex justify-center font-display text-8xl">Dougie & Bob</h2>
+    <h2 className="lg:col-span-3 pb-12 flex justify-center font-display text-6xl sm:text-8xl">Dougie & Bob</h2>
 
 
         <div className="px-6 py-6 sm:mx-12 md:mx-40 lg:mx-0 bg-black rounded-lg lg:z-30 lg:col-span-1">
@@ -103,9 +103,9 @@ function CommunityCards(){
         
     </div>
 
-    <div className="lg:grid lg:grid-cols-3 mx-12 lg:mx-4 my-12">  
+    <div className="lg:grid lg:grid-cols-3 mx-4 sm:mx-12 lg:mx-12 my-12">  
     {/* Liz AND FRED */}
-    <h2 className="lg:col-span-3 pb-12 flex justify-center font-display text-8xl"> Liz & Fred </h2>
+    <h2 className="lg:col-span-3 pb-12 flex justify-center font-display text-6xl sm:text-8xl"> Liz & Fred </h2>
 
 
         <div className="px-6 py-6 sm:mx-12 md:mx-40 lg:mx-0 bg-black rounded-lg lg:z-30 lg:col-span-1">
