@@ -16,7 +16,7 @@ function HeroImage(){
 
 
         <div className="md:basis-1/2 pt-20 mx-2 flex justify-center">
-            <img className="w-72 md:w-80 lg:w-96 xl:w-3/5" src="/phones.png" alt="test"/>
+            <img className="w-72 md:w-80 lg:w-96 xl:w-3/5" src="/phones.png" alt="Image of an iPhone and Pixel phone displaying the Magnet app signup screen."/>
         </div>
 
       

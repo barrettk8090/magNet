@@ -9,7 +9,7 @@ function CommunityCards(){
 
 
         <div className="px-6 py-6 bg-black rounded-lg lg:z-30 lg:col-span-1">
-            <img className="rounded-full float-left w-24"  src="/grace.png" />
+            <img className="rounded-full float-left w-24"  src="/grace.png" alt="Image of a girl wearing sunglasses and smiling." />
             <div className="mx-28 pb-6">
                 <p className="pt-6 font-bold">Grace C.</p>
                 <p className="pb-6 font-bold">Craftsman</p>
@@ -43,7 +43,7 @@ function CommunityCards(){
 
 
         <div className=" mb-6 px-6 py-6 bg-black rounded-lg lg:z-30 lg:col-span-1" >
-            <img className="rounded-full float-left w-24"  src="/caitlin.png"/>
+            <img className="rounded-full float-left w-24"  src="/caitlin.png" alt="Image of a girl with brown hair standing in front of a paiting of flamingos."/>
             <div className="mx-28 pb-6">
                 <p className="pt-6 font-bold">Caitlin S.</p>
                 <p className="pb-6 font-bold">Café Owner</p>
@@ -59,7 +59,7 @@ function CommunityCards(){
 
 
         <div className="px-6 py-6 bg-black rounded-lg lg:z-30 lg:col-span-1">
-            <img className="rounded-full float-left w-24"  src="/dougie.png" />
+            <img className="rounded-full float-left w-24"  src="/dougie.png" alt="Image of Kyle MacLachlan as Dougie in Twin Peaks."/>
             <div className="mx-28 pb-6">
                 <p className="pt-6 font-bold">Dougie J.</p>
                 <p className="pb-6 font-bold">Graphic Designer</p>
@@ -93,7 +93,7 @@ function CommunityCards(){
 
 
         <div className=" mb-6 px-6 py-6 bg-black rounded-lg lg:z-30 lg:col-span-1" >
-            <img className="rounded-full float-left w-24"  src="/bob.png"/>
+            <img className="rounded-full float-left w-24"  src="/bob.png" alt="Image of scary Bob from Twin Peaks."/>
             <div className="mx-28 pb-6">
                 <p className="pt-6 font-bold">Bob</p>
                 <p className="pb-6 font-bold">Food Trucker</p>
@@ -109,7 +109,7 @@ function CommunityCards(){
 
 
         <div className="px-6 py-6 bg-black rounded-lg lg:z-30 lg:col-span-1">
-            <img className="rounded-full float-left w-24"  src="/liz.png" />
+            <img className="rounded-full float-left w-24"  src="/liz.png" alt="Image of Lizzy McGuire from Disney" />
             <div className="mx-28 pb-6">
                 <p className="pt-6 font-bold">Liz</p>
                 <p className="pb-6 font-bold">Video Editor</p>
@@ -143,7 +143,7 @@ function CommunityCards(){
 
 
         <div className=" mb-6 px-6 py-6 bg-black rounded-lg lg:z-30 lg:col-span-1" >
-            <img className="rounded-full float-left w-24"  src="/fred.png"/>
+            <img className="rounded-full float-left w-24"  src="/fred.png" alt="Image of a French Bulldog wearing a baseball cap."/>
             <div className="mx-28 pb-6">
                 <p className="pt-6 font-bold">Fred</p>
                 <p className="pb-6 font-bold">Coach</p>

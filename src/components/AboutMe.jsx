@@ -4,7 +4,7 @@ function AboutMe(){
         <div className="mx-6 md:mx-20 lg:mx-60">
             
             <div className="flex justify-center pt-32">
-            <img className="rounded-full w-40 hover:animate-spin" src="/barrett-k.png"/>
+            <img className="rounded-full w-40 hover:animate-spin" src="/barrett-k.png" alt="Image of Barrett K, wearing a black sweatshirt and holding his French Bulldog, Jack."/>
             </div>
             <div className="flex justify-center">
             <h1 className= "pt-14 text-9xl font:display ">About Me</h1>
