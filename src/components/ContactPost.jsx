@@ -2,6 +2,7 @@ import { useState } from 'react';
 
 function ContactPost({post, handlePatch}){
 
+
     const [isExpanded, setExpanded] = useState(false)
     const [inputText, setInputText] = useState("")
     const [reply, setReply] = useState(name)
@@ -14,14 +15,17 @@ function ContactPost({post, handlePatch}){
         setInputText(e.target.value)
     }
 
+
     function submit(e){
         e.preventDefault();
+        
         const newReply = {...post}
         newReply.reply = e.target.name.value;
         handlePatch(newReply)
-        setReply(e.target.name.value)
+        setReply(e.target.name.value);
 
     }
+
 
     return(
             <div className="bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 rounded-lg grid shadow-lg">
